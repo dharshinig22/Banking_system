@@ -104,7 +104,7 @@
 
     <section>
         <h2>Account Login</h2>
-        <form action="get_account" method="post">
+        <form action="get" method="post">
             <label for="account_number">Account Number</label>
             <input type="text" id="account_number" name="account_number" placeholder="Enter your Account Number" required/>
             

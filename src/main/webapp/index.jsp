@@ -1,58 +1,99 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>HOME PAGE</title>
+<title>Central Bank of India</title>
+<link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-body {
-    background-color: #f0fff0;
+body{
+    height: 90vh;
+}
+.container{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
     flex-direction: column;
+}
+.buttons{
+    display:flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
 }
-
-h2 {
-    font-size: 3em;
-    color: #333;
-    margin-bottom: 20px;
+img{
+    border-radius: 20px;
 }
-
-a {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 1.5em;
-    color: white;
-    background-color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px 0;
-    transition: background-color 0.3s;
+h1{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 5px;
 }
-
-a:hover {
-    background-color: #555;
-}
-
-.container {
+h4{
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
     text-align: center;
 }
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+button{
+    background-color: black;
+    border: 0 solid transparent;
+    width: 190px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.2s ease-out;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+button:hover{
+    text-align: center;
+    background-color: rgb(48, 46, 46);
+}
 </style>
-</head>
 <body>
-<div class="container">
-    <h2>EBANK</h2>
-    <a href="CustomerRegister.jsp">Customer</a><br><br>
-    <a href="Adminlogin.jsp">Admin</a>
-</div>
+    <div class="container">
+        <div class="image">
+            <img src="img/13068.jpg" alt="logo" height="570px">
+        </div>
+        <div class="home">
+            <div class="header">
+                <img src="img/logo.png" alt="logo" height="100">
+                <h1>Welcome to Central Bank of India</h1>
+                <h4>For the people's future</h4>
+            </div>
+            <div class="buttons">
+                <button><a href="CustomerRegister.jsp">Customer</a></button>
+            <button><a href="Adminlogin.jsp">Admin</a></button>
+            </div>
+        </div>
+        </div>
+    </div>
 </body>
 </html>

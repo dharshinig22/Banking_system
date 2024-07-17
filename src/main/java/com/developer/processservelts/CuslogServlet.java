@@ -14,7 +14,7 @@ import com.processfordao.customerlogDAO;
 /**
  * Servlet implementation class CuslogServlet
  */
-@WebServlet("/get_account")
+@WebServlet("/get")
 public class CuslogServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
        

@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -98,7 +99,10 @@
             white-space: nowrap; /* Prevent the date from wrapping */
         }
 </style>
+ 
 <script>
+
+
     function updateTime() {
         var now = new Date();
         var formattedTime = now.getFullYear() + '-' + 
@@ -224,7 +228,6 @@
         </table>
     </form>
 </div>
-
 
 
 
