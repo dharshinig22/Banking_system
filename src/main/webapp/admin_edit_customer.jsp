@@ -10,7 +10,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 60px;
             background-color: #f9f9f9;
         }
         h2 {
@@ -21,7 +21,7 @@
         }
         label {
             display: block;
-            margin-top: 10px;
+            margin-top: 20px;
             font-weight: bold;
         }
         input[type="text"], input[type="email"], input[type="date"], input[type="submit"] {
@@ -31,13 +31,13 @@
             box-sizing: border-box;
         }
         input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: #0080ff;
             color: white;
             border: none;
             cursor: pointer;
         }
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #0040ff;
         }
         table {
             width: 100%;

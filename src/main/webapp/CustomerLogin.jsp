@@ -14,6 +14,8 @@
     }
 
     body {
+        background-image: url('img/b1.jpg'); 
+        background-size: cover;
         font-family: Arial, sans-serif;
         background-color: #f4f4f4;
         color: #333;
@@ -61,14 +63,14 @@
         padding: 10px;
         border: none;
         border-radius: 4px;
-        background-color: #5cb85c;
+        background-color: #0080ff;
         color: white;
         font-size: 16px;
         cursor: pointer;
     }
 
     input[type="submit"]:hover {
-        background-color: #4cae4c;
+        background-color: #0040ff;
     }
 
     p {

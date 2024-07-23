@@ -7,8 +7,9 @@
 <title>Customer Home</title>
 <style>
     body {
+        
         font-family: Arial, sans-serif;
-        background-color: #f0f2f5;
+        
         margin: 0;
         padding: 20px;
     }
@@ -65,13 +66,13 @@
         width: 300px;
     }
     input[type="submit"] {
-        background-color: #4CAF50;
+        background-color: #0080ff;
         color: white;
         border: none;
         cursor: pointer;
     }
     input[type="submit"]:hover {
-        background-color: #45a049;
+        background-color: #0040ff;
     }
     .error-message {
         color: red;
@@ -212,7 +213,7 @@
                 <td><%= rs.getLong("amount") %></td>
                 <td><%= rs.getString("transaction_type") %></td>
                 <td><%= rs.getString("t_status") %></td>
-                <td><%= rs.getString("receiver_phone_number") %></td>
+                <td><%= rs.getString("reciever_phone_number") %></td>
                 <td><%= rs.getTimestamp("transaction_date") %></td>
             </tr>
             <%

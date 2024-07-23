@@ -9,6 +9,8 @@
 
 
  body {
+            background-image: url('img/b1.jpg'); 
+            background-size: cover;
             font-family: Arial, sans-serif;
             background-color: #f0f2f5;
             margin: 0;
@@ -52,14 +54,14 @@
         }
         
         .container input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: #0080ff;
             color: white;
             border: none;
             cursor: pointer;
         }
         
         .container input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: 	#0040ff;
         }
         
         .error-message {
